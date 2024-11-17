@@ -6,7 +6,7 @@ int main()
     printf("enter a number: ");//asking for value of n
     scanf("%d",&n);//assigning value entered by user to n
     //below is a loop which will print the product of n and numbers from 1 to 10 one by one
-    for(int i=1;i<=10;i++)
+    for(int i=1;i<=15;i++)
     {
         printf("%d*%d=%d\n",n,i,n*i);//printing the product
     }
